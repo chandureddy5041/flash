@@ -5,6 +5,10 @@ abstract class Human{
 	abstract void eat();
 	
 	void speak() {
+		System.out.println("can speak language");	
+		
+	}
+	void speak1() {
 		System.out.println("can speak language");
 	}
 }
@@ -21,6 +25,7 @@ public class AbstractionEx extends Human {
 		obj.eat();
 		obj.run();
 		obj.speak();
+	        obj.speak1();
 	}
 
 }
